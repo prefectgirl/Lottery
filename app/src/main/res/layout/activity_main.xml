@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow" />
+
+    <ImageView
+        android:id="@+id/table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="click"
+        android:src="@drawable/zhongjiang" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+ <LinearLayout
+     android:padding="10dp"
+     android:orientation="horizontal"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+     <Button
+         android:id="@+id/YES"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="我一定能中奖！" />
+
+     <Button
+         android:id="@+id/NO"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="我下次一定努力！" />
+
+     <Button
+         android:id="@+id/fate"
+         android:text="听天由命吧"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+ </LinearLayout>
+
+
+</LinearLayout>
